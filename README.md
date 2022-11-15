@@ -6,6 +6,6 @@
 2. have to put all the styles in style tag of head tag in main html file.
 3. have to organize the components position according to json file component index.
 
-Live Link: https://dorik-component-builder-obaydul.netlify.app/
+Live Link: https://dorik-component-from-json-obaydul.netlify.app/
 
 Git-repo: https://github.com/odht82/nested-dorik-component-json
