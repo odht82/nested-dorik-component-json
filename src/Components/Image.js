@@ -1,9 +1,4 @@
-const Image = ({ className, attr }) => {
-
-    return (
-        <>
-            <img className={className} src={attr.src} alt={attr.alt}></img>
-        </>
-    );
+const Image = ({ data, className }) => {
+    return (<img className={className} src={data.attr.src} alt={data.attr.alt} />);
 };
 export default Image;

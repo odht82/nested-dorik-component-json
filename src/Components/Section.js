@@ -1,21 +1,8 @@
-import { styleProcessor } from '../Utilities/StyleProcessor';
-import { setStyle } from '../Utilities/StyleSetter';
-import Row from './Row';
-
-const Section = ({ className, content }) => {
-    const { styles } = styleProcessor(content);
-    setStyle(styles);
+const Section = ({ children, className }) => {
     return (
-        <>
-            <div className={className}>
-                {
-                    content.map(row => (
-                        <Row key={row.id} className={row.id} content={row.content} />
-                    )
-                    )
-                }
-            </div>
-        </>
+        <div className={className}>
+            {children}
+        </div>
     );
 };
 
