@@ -1,6 +1,6 @@
 import HomePage from './Pages/HomePage';
 import { Helmet } from 'react-helmet';
-import { styleProcessor } from './Utilities/StyleProcessor';
+import styleProcessor from './Utilities/styleProcessor';
 import { useEffect, useState } from 'react';
 
 function App() {
