@@ -1,6 +1,8 @@
-import parse from "html-react-parser";
-const Text = ({ data, className }) => {
-    return (<p className={className}>{parse(data.content)}</p>);
+const Text = (className, style) => {
+    const defaultStyles = ``
+    const regularStyles = `${style}`
+
+    return `.${className} {${defaultStyles}${regularStyles} } `
 };
 
 export default Text;

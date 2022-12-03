@@ -44,7 +44,7 @@ export const styleProcessor = (data) => {
             stylesCollector(data)
             const styles = (stylesArr + "\n").replaceAll(",", "\n").replaceAll("'", "");
 
-            // console.log(styles)
+            // (styles)
             return { styles };
         };
     }

@@ -1,7 +1,7 @@
-const Section = ({ children, className }) => {
+const Section = ({ data, className }) => {
     return (
         <div className={className}>
-            {children}
+            {data?.children}
         </div>
     );
 };

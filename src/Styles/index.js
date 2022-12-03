@@ -1,12 +1,12 @@
-import section from "../Components/Section";
-import row from "../Components/Row";
-import column from "../Components/Column";
-import item from "../Components/Input";
-import button from "../Components/Button";
+import section from "./Section";
+import row from "./Row";
+import column from "./Column";
+import item from "./Input";
+import button from "./Button";
 import subscription from "./Subscription";
-import heading from "../Components/Heading";
-import text from "../Components/Text";
-import image from "../Components/Image";
+import heading from "./Heading";
+import text from "./Text";
+import image from "./Image";
 
 export const componentStyle = {
     section,

@@ -1,7 +1,7 @@
-const Column = ({ children, className }) => {
+const Column = ({ data, className }) => {
     return (
         <div className={className}>
-            {children}
+            {data.children}
         </div>
     );
 };

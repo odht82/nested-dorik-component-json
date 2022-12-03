@@ -1,21 +1,10 @@
-import section from "../Components/Section";
-import row from "../Components/Row";
-import column from "../Components/Column";
-import item from "../Components/Input";
-import button from "../Components/Button";
-import subscription from "./Subscription";
-import heading from "../Components/Heading";
-import text from "../Components/Text";
-import image from "../Components/Image";
-
-export const component = {
-    section,
-    row,
-    column,
-    item,
-    button,
-    subscription,
-    heading,
-    text,
-    image
-}
+import Section from "./Section";
+import Row from "./Row";
+import Column from "./Column";
+import Item from "./Input";
+import Button from "./Button";
+import Form from "./Form";
+import Heading from "./Heading";
+import Text from "./Text";
+import Image from "./Image";
+export const component = { Section, Row, Column, Item, Button, Form, Heading, Text, Image }

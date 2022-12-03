@@ -1,9 +1,8 @@
-const Row = ({ children, className }) => {
-    return (
-        <div className={className}>
-            {children}
-        </div>
-    );
+const Row = (className, style) => {
+    const defaultStyles = ``
+    const regularStyles = `${style}`
+
+    return `.${className} {${defaultStyles}${regularStyles} } `
 };
 
 export default Row;

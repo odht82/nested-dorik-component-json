@@ -1,9 +1,7 @@
-const Input = ({ data, className }) => {
-    return (
-        <>
-            <label>{data.label}</label>
-            <input className={className} placeholder={data.attr.placeholder} />
-        </>
-    );
+const Input = (className, style) => {
+    const defaultStyles = ``
+    const regularStyles = `${style}`
+
+    return `.${className} {${defaultStyles}${regularStyles} } `
 };
 export default Input;

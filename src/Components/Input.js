@@ -1,8 +1,8 @@
-const Input = ({ data, className }) => {
+const Input = (props) => {
     return (
         <>
-            <label>{data.label}</label>
-            <input className={className} placeholder={data.attr.placeholder} />
+            <label>{props.props.label}</label>
+            <input className={props.props.id} placeholder={props.props.attr.placeholder} />
         </>
     );
 };
